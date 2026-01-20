@@ -1,3 +1,118 @@
+🧩 Next.js App Router Demo Project
+📌 Project Description
+
+This is a simple demo application built using Next.js 15/16 (App Router) and Express.js.
+The project demonstrates public pages, mock authentication, route handling, and fetching product data from an Express API.
+
+The main goal of this project is to showcase a clean structure, basic authentication flow, and API integration in a beginner-friendly way.
+
+
+
+🛠️ Technologies Used
+
+Next.js 15/16 (App Router)
+
+React
+
+Tailwind CSS
+
+Express.js
+
+Node.js
+
+Cookies (for mock authentication)
+
+
+## Project Structure (Simplified)
+
+/app
+ ├─ page.js              → Landing Page
+ ├─ login/page.jsx       → Login Page
+ ├─ items/page.jsx       → Item List Page
+ ├─ items/[id]/page.jsx  → Item Details Page
+ ├─ layout.js            → Global Layout (Navbar + Footer)
+
+/components
+ ├─ Navbar.jsx
+ └─ Footer.jsx
+
+/backend
+ └─ index.js             → Express API Server
+
+
+
+
+ 🚀 Setup & Installation
+
+ git clone <https://github.com/sajib593/phero-next>
+
+
+ 🌐 Available Routes
+ ### Frontend Routes
+
+ | Route        | Description                  | Access |
+| ------------ | ---------------------------- | ------ |
+| `/`          | Landing page with 7 sections | Public |
+| `/login`     | Mock login page              | Public |
+| `/items`     | Item list page               | Public |
+| `/items/:id` | Item details page            | Public |
+
+
+## Backend API Routes
+| Endpoint     | Description           |
+| ------------ | --------------------- |
+| `/items`     | Get all items         |
+| `/items/:id` | Get single item by ID |
+
+
+🔐 Authentication (Mock Login)
+
+Uses hardcoded credentials
+
+Stores login state in cookies
+
+No database or JWT used
+
+## Demo Credentials
+Email: admin@example.com
+Password: 123456
+
+
+✨ Features Implemented
+
+✅ Landing page with 7 sections
+
+✅ Global Navbar & Footer
+
+✅ Mock authentication system
+
+✅ Cookie-based login state
+
+✅ Public item listing page
+
+✅ Dynamic item details page
+
+✅ Express API integration
+
+✅ Clean and simple UI with Tailwind CSS
+
+
+👨‍💻 Author
+
+Sajib Hossain
+Junior MERN Stack Developer
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
